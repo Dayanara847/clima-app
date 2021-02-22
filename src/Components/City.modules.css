@@ -1,0 +1,63 @@
+.clearNight {
+    background-image: url("https://i.ibb.co/sC8z2jf/aerial-shot-of-downtown-angeles-at-night.jpg");
+    background-size: cover;
+}
+
+.rainyNight {
+    background-image: url("https://i.ibb.co/NrWVrWC/lluvia-Noche2.jpg");
+    background-size: cover;
+}
+
+.sunnyDay {
+    background-image: url("https://i.ibb.co/8bFBczM/pexels-photo-409127.jpg");
+    background-size: cover;
+}
+
+.rainyDay {
+    background-image: url("https://i.ibb.co/7j3TfDC/lluvia-Dia.jpg");
+    background-size: cover;
+}
+
+.ciudad {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 40rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.infoCity {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cityName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.iconWeather {
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(185, 182, 182);
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.infoValue {
+    margin-left: 2rem;
+    justify-self: end;
+}

@@ -1,0 +1,18 @@
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top: 60px;
+}
+
+.noCities {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.noCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
