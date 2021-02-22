@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+Web conectada con api del clima, para ver el tiempo en distintas ciudades del mundo.
+
+# Made with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### `npm install`
 
 ### `npm start`
 
